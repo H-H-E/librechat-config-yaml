@@ -1,7 +1,7 @@
 version: "1.2.4"
 cache: true
 
-APP_TITLE: "Poiesis Pete"
+APP_TITLE: "PoiesisPete"
 
 registration: {}
 
