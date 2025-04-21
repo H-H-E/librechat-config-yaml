@@ -22,3 +22,11 @@ endpoints:
       summaryModel: "gpt-4o-mini"
       modelDisplayLabel: "Poiesis Pete"
       iconURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/OpenAI_Logo.svg/2048px-OpenAI_Logo.svg.png"
+
+  balance:
+    enabled: true             # turn on per‑user credit tracking
+    startBalance: 50000       # 50 000 credits on sign‑up (~$5)
+    autoRefillEnabled: false  # no automatic top‑ups
+    refillIntervalValue: 1    # required field (ignored since autoRefill is false)
+    refillIntervalUnit: "months"
+    refillAmount: 50000       # booster pack, delivered manually via CLI/API
