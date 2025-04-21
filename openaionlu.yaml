@@ -22,8 +22,8 @@ endpoints:
 
 balance:
   enabled: true
-  startBalance: 50000
+  startBalance: 1000000
   autoRefillEnabled: false
   refillIntervalValue: 1
   refillIntervalUnit: "months"
-  refillAmount: 50000
+  refillAmount: 1000000
