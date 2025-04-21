@@ -1,10 +1,9 @@
-version: 1.2.4
-
+version: "1.2.4"
 cache: true
 
-registration:
-
 APP_TITLE: "Poiesis Pete"
+
+registration: {}
 
 endpoints:
   custom:
@@ -17,16 +16,17 @@ endpoints:
           - o4-mini
       fetch: false
       titleConvo: true
-      titleModel: "gpt-4o-mini"
+      titleModel: "gpt-4o"
       summarize: false
-      summaryModel: "gpt-4o-mini"
+      summaryModel: "gpt-4o"
       modelDisplayLabel: "Poiesis Pete"
       iconURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/OpenAI_Logo.svg/2048px-OpenAI_Logo.svg.png"
 
-  balance:
-    enabled: true             # turn on per‑user credit tracking
-    startBalance: 50000       # 50 000 credits on sign‑up (~$5)
-    autoRefillEnabled: false  # no automatic top‑ups
-    refillIntervalValue: 1    # required field (ignored since autoRefill is false)
-    refillIntervalUnit: "months"
-    refillAmount: 50000       # booster pack, delivered manually via CLI/API
+balance:
+  enabled: true
+  showBalance: true
+  startBalance: 50000
+  autoRefillEnabled: false
+  refillIntervalValue: 1
+  refillIntervalUnit: "months"
+  refillAmount: 50000
