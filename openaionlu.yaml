@@ -1,8 +1,6 @@
 version: "1.2.4"
 cache: true
 
-APP_TITLE: "PoiesisPete"
-
 registration: {}
 
 endpoints:
@@ -20,7 +18,7 @@ endpoints:
       summarize: false
       summaryModel: "gpt-4o"
       modelDisplayLabel: "Poiesis Pete"
-      iconURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/OpenAI_Logo.svg/2048px-OpenAI_Logo.svg.png"
+      iconURL: "https://upload.wikimedia.org/wikipedia/commons/e/e7/OpenAI_Logo.svg.png"
 
 balance:
   enabled: true
