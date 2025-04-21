@@ -24,7 +24,6 @@ endpoints:
 
 balance:
   enabled: true
-  showBalance: true
   startBalance: 50000
   autoRefillEnabled: false
   refillIntervalValue: 1
